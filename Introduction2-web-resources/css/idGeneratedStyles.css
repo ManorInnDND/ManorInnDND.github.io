@@ -3,6 +3,12 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 	padding:0;
 	border-width:0;
 }
+hr {
+	background:#48341b;
+	height:2px;
+	width: 80%;
+	margin-left: 0%;
+}
 body {
 	-epub-hyphens:auto;
 }
