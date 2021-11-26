@@ -6,7 +6,7 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 hr {
 	background:#48341b;
 	height:2px;
-	width: 80%;
+	width: 250px;
 	margin-left: 0%;
 }
 body {
@@ -99,7 +99,7 @@ p.Chapter_CORE-BODY {
 	text-transform:none;
 	widows:1;
 }
-p.Chapter_CORE-BULLETED {
+ul.Chapter_CORE-BULLETED {
 	color:#000000;
 	font-family:"Bookinsanity Remake", serif;
 	font-size:10px;
