@@ -1,7 +1,6 @@
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 	margin:0;
 	padding:0;
-	width: 600;
 	border-width:0;
 }
 body {
@@ -284,25 +283,4 @@ p.ParaOverride-2 {
 span.CharOverride-1 {
 	font-style:normal;
 	font-weight:bold;
-}
-
-/* ———– iPhone 6 ———– */
-
-/* Portrait and Landscape */
-
-@media only screen
-
-and (min-device-width: 375px)
-
-and (max-device-width: 667px)
-
-and (-webkit-min-device-pixel-ratio: 2) {
-
-/*****YOUR CODE HERE*****/
-#body {
-	width: 300px;
-	margin: auto
-}
- 
-
 }
