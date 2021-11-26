@@ -99,6 +99,27 @@ p.Chapter_CORE-BODY {
 	text-transform:none;
 	widows:1;
 }
+p.Chapter_CORE-BODY-INDENT {
+	color:#000000;
+	font-family:"Bookinsanity Remake", serif;
+	font-size:10px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:5px;
+	margin-left:2;
+	margin-right:2;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:avoid;
+	text-align:left;
+	text-decoration:none;
+	text-indent:5px;
+	text-transform:none;
+	widows:1;
+}
 ul.Chapter_CORE-BULLETED {
 	color:#000000;
 	font-family:"Bookinsanity Remake", serif;
