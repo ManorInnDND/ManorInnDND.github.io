@@ -284,3 +284,24 @@ span.CharOverride-1 {
 	font-style:normal;
 	font-weight:bold;
 }
+
+/* ———– iPhone 6 ———– */
+
+/* Portrait and Landscape */
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2) {
+
+/*****YOUR CODE HERE*****/
+#body {
+	width: 600px;
+	margin: auto
+}
+ 
+
+}
