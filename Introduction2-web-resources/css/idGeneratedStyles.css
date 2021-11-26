@@ -11,6 +11,7 @@ hr {
 }
 body {
 	-epub-hyphens:auto;
+	hyphens: auto;
 }
 div.Two-Column-Frame {
 	border-style:solid;
@@ -116,7 +117,7 @@ p.Chapter_CORE-BODY-INDENT {
 	page-break-before:avoid;
 	text-align:left;
 	text-decoration:none;
-	text-indent:5px;
+	text-indent:11px;
 	text-transform:none;
 	widows:1;
 }
@@ -310,4 +311,25 @@ p.ParaOverride-2 {
 span.CharOverride-1 {
 	font-style:normal;
 	font-weight:bold;
+}
+p.quote {
+	color:#000000;
+	font-family:Bookmania, serif;
+	font-size:10px;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:5px;
+	margin-left:11px;
+	margin-right:11px;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-indent: 11px;
+	text-decoration:none;
+	text-transform:none;
+	widows:1;
 }
