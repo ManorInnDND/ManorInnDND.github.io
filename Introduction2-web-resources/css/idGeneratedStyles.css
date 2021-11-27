@@ -2,6 +2,7 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 	margin:5px;
 	padding:0;
 	border-width:0;
+	font-size:16px;
 }
 hr {
 	background:#48341b;
@@ -19,7 +20,7 @@ div.Two-Column-Frame {
 p.CORE-STAT {
 	color:#000000;
 	font-family:"Scaly Sans Remake", sans-serif;
-	font-size:16px;
+	font-size:100%;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -82,7 +83,7 @@ p.Chapter_CHAPTER-TITLE {
 p.Chapter_CORE-BODY {
 	color:#000000;
 	font-family:"Bookinsanity Remake", serif;
-	font-size:16px;
+	font-size:100%;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -103,7 +104,7 @@ p.Chapter_CORE-BODY {
 p.Chapter_CORE-BODY-INDENT {
 	color:#000000;
 	font-family:"Bookinsanity Remake", serif;
-	font-size:16px;
+	font-size:100%;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -124,7 +125,7 @@ p.Chapter_CORE-BODY-INDENT {
 ul.Chapter_CORE-BULLETED {
 	color:#000000;
 	font-family:"Bookinsanity Remake", serif;
-	font-size:16px;
+	font-size:100%;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -147,7 +148,7 @@ ul.Chapter_CORE-BULLETED {
 p.Chapter_CORE-METADATA {
 	color:#000000;
 	font-family:Bookmania, serif;
-	font-size:16px;
+	font-size:100%;
 	font-style:italic;
 	font-variant:normal;
 	font-weight:normal;
@@ -211,7 +212,7 @@ p.SHADED-TEXT {
 	background-color:#cbccce;
 	color:#000000;
 	font-family:"Scaly Sans Remake", sans-serif;
-	font-size:16px;
+	font-size:100%;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
