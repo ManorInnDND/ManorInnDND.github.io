@@ -10,10 +10,23 @@
 		<div id="_idContainer000" class="Two-Column-Frame">
 			<p class="Chapter_CHAPTER-TITLE">The Manor Inn Sessions, Introduction</p>
 			<p class="Chapter_CORE-BODY">
-				This is the first of a series of documents that will track the exploits of your adventuring party.
-				 The purpose of this first document is to provide you with basic information about the nearby lands,
-				 your fellow adventurers,  and to provide some links to content that may be of use. Future documents
-				  will track rumors and adventure leads you may wish to pursue.</p>
+				Welcome to the ManorInnDND homepage. The purpose of this site is to track the exploits of your adventuring party
+				and provide information about the world they explore. Right now I am thinking we will track the following information
+				here:
+				<ul class="Chapter_CORE-BULLETED">
+					<li>Character Development - Personality, (Mis?)Deeds, Physical Description, Picture</li>
+					<li>Session Notes - A synopsis of each session</li>
+					<li>Adventure Hooks - Notes on potential adventure leads</li>
+					<li>Handouts - Maps and other handout-type media</li>
+					<li>Date/Time/Place of next Session</li>
+				</ul>
+				</p>
+			<p class="Chapter_CHAPTER-SECTION">Next Session Will Be...</p>
+			<p class="Chapter_CORE-BODY"> <b>At</b> 4 PM, Carrie and Brandons</p>
+			<p class="Chapter_CORE-BODY"> <b>On</b> Sunday, November 28,2021</p>
+			<p class="Chapter_CORE-BODY"> <b>Time Remaining:</p>
+			<p id="countdown" class="Chapter_CORE-BODY"></p>
+			
 			<p class="Chapter_CHAPTER-SECTION">The Adventuring Party</p>
 			<p class="Chapter_CORE-BODY">
 			A brief description of each member of the party follows.
@@ -50,10 +63,10 @@
 			<img src="Introduction2-web-resources/LocalAreaMap24Mile.png" alt="Local Area Map" width="500" height="425">
 			<p class="Chapter_CHAPTER-SECTION">Links to Session Recaps:</p>
 			<p class="Chapter_CORE-BODY">
-				You can find links to descriptions of the event which occurred in each session below.
+				You can find links to descriptions of the events which occurred in each session below.
 			</p>
 			<p class="Chapter_SECTION-HEADER-1">
-				The Spoooooky Mansion
+				The Spoooooky Mansion (Levels 1 - ?)
 			</p>
 			<hr>
 			<p class="Chapter_CORE-BODY">
@@ -66,3 +79,34 @@
 		</div>
 	</body>
 </html>
+
+<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date("11/28/21 16:00:00").getTime();
+	
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+	
+	  // Get today's date and time
+	  var now = new Date().getTime();
+	
+	  // Find the distance between now and the count down date
+	  var distance = countDownDate - now;
+	
+	  // Time calculations for days, hours, minutes and seconds
+	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+	
+	  // Display the result in the element with id="countdown"
+	  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+	  + minutes + "m " + seconds + "s ";
+	
+	  // If the count down is finished, write some text
+	  if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("countdown").innerHTML = "Not Set/Expired";
+	  }
+	}, 1000);
+	</script>

@@ -19,7 +19,7 @@ div.Two-Column-Frame {
 p.CORE-STAT {
 	color:#000000;
 	font-family:"Scaly Sans Remake", sans-serif;
-	font-size:16px;
+	font-size:10px;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -40,7 +40,7 @@ p.CORE-STAT {
 p.Chapter_CHAPTER-SECTION {
 	color:#48341b;
 	font-family:Bookmania, serif;
-	font-size:200%;
+	font-size:20px;
 	font-style:normal;
 	font-variant:small-caps;
 	font-weight:normal;
@@ -61,7 +61,7 @@ p.Chapter_CHAPTER-SECTION {
 p.Chapter_CHAPTER-TITLE {
 	color:#48341b;
 	font-family:Bookmania, serif;
-	font-size:260%;
+	font-size:26px;
 	font-style:normal;
 	font-variant:small-caps;
 	font-weight:normal;
@@ -82,7 +82,7 @@ p.Chapter_CHAPTER-TITLE {
 p.Chapter_CORE-BODY {
 	color:#000000;
 	font-family:"Bookinsanity Remake", serif;
-	font-size:16px;
+	font-size:10px;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -103,7 +103,7 @@ p.Chapter_CORE-BODY {
 p.Chapter_CORE-BODY-INDENT {
 	color:#000000;
 	font-family:"Bookinsanity Remake", serif;
-	font-size:16px;
+	font-size:10px;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -124,7 +124,7 @@ p.Chapter_CORE-BODY-INDENT {
 ul.Chapter_CORE-BULLETED {
 	color:#000000;
 	font-family:"Bookinsanity Remake", serif;
-	font-size:16px;
+	font-size:10px;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -147,7 +147,7 @@ ul.Chapter_CORE-BULLETED {
 p.Chapter_CORE-METADATA {
 	color:#000000;
 	font-family:Bookmania, serif;
-	font-size:16px;
+	font-size:10px;
 	font-style:italic;
 	font-variant:normal;
 	font-weight:normal;
@@ -168,7 +168,7 @@ p.Chapter_CORE-METADATA {
 p.Chapter_SECTION-HEADER-1 {
 	color:#48341b;
 	font-family:"Bookmania Light", serif;
-	font-size:160%;
+	font-size:16px;
 	font-style:normal;
 	font-variant:small-caps;
 	font-weight:300;
@@ -189,7 +189,7 @@ p.Chapter_SECTION-HEADER-1 {
 p.Chapter_SECTION-HEADER-2 {
 	color:#48341b;
 	font-family:"Bookmania Light", serif;
-	font-size:120%;
+	font-size:12px;
 	font-style:normal;
 	font-variant:small-caps;
 	font-weight:300;
@@ -211,7 +211,7 @@ p.SHADED-TEXT {
 	background-color:#cbccce;
 	color:#000000;
 	font-family:"Scaly Sans Remake", sans-serif;
-	font-size:16px;
+	font-size:10px;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -233,7 +233,7 @@ p.Sidebar_SIDEBAR-BODY {
 	background-color:#e6e6e8;
 	color:#000000;
 	font-family:"Scaly Sans Remake", sans-serif;
-	font-size:90%;
+	font-size:9px;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -255,7 +255,7 @@ p.Sidebar_SIDEBAR-BULLETED {
 	background-color:#e6e6e8;
 	color:#000000;
 	font-family:"Scaly Sans Remake", sans-serif;
-	font-size:90%;
+	font-size:9px;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -279,7 +279,7 @@ p.Sidebar_SIDEBAR-HEADING {
 	background-color:#e6e6e8;
 	color:#000000;
 	font-family:"Scaly Sans Remake", sans-serif;
-	font-size:110%;
+	font-size:11px;
 	font-style:normal;
 	font-variant:small-caps;
 	font-weight:bold;
@@ -315,7 +315,7 @@ span.CharOverride-1 {
 p.quote {
 	color:#000000;
 	font-family:Bookmania, serif;
-	font-size:90%;
+	font-size:10px;
 	font-style:italic;
 	font-variant:normal;
 	font-weight:normal;
