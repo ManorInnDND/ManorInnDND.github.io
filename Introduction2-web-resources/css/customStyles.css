@@ -1,0 +1,61 @@
+nav {
+	list-target-type:	none;
+	margin:	0px;
+}
+
+nav ul {
+	line-height: 2em;
+	padding-inline-start: 0px;
+}
+
+nav ul li {
+	display:	inline;
+	padding:	4px 4px;
+	border-radius:	5px;
+	white-space:	nowrap;
+}
+
+nav ul li#current {
+	background:	#b88b54;
+}
+
+nav ul li a {
+	font-weight: bold;
+	text-decoration: none;
+	color:		#691d1d;
+}
+
+img {
+	border-radius:	5px;
+}
+
+section {
+	margin:	5px 0px;
+	padding:	5px;
+	background:	#ebbe88;
+	border-radius:	5px;
+}
+
+section section {
+	margin:	0px;
+}
+
+
+.tableContainer	{
+	display:	table;
+	border-spacing: 5px;
+}
+
+.tableCell {
+	display:	table-cell;
+}
+
+.tableRow {
+	display:	table-row;
+}
+
+
+
+
+
+

@@ -3,81 +3,61 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>The Manor Inn Sessions</title>
+		<title>The Manor Inn Sessions - Home</title>
 		<link href="Introduction2-web-resources/css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+		<link href="Introduction2-web-resources/css/customStyles.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body id="Introduction2" lang="en-US">
-		<div id="_idContainer000" class="Two-Column-Frame">
+		<section id="header">
+		<header>
 			<p class="Chapter_CHAPTER-TITLE">Manor Inn D&D</p>
           <img src="Introduction2-web-resources/images/ponderingorb.jpg" alt="" width="157" height="94" align="top"/>
+		</header>
+		<nav>
+			<ul>
+				<li id="current"><a href="index.html">| HOME |</a></li>
+				<li><a href="sessions.html">| SESSIONS |</a></li>
+				<li><a href="partybios.html">| PARTY BIOS |</a></li>
+				<li><a href="adventurehooks.html">| ADVENTURE LEADS |</a></li>
+				<li><a href="thefallen.html">| THE FALLEN |</a></li>
+			</ul>
+		  </nav>
+		</section>  
+		  <section id="intro">
+		  <p class="Chapter_CHAPTER-SECTION">
+			Welcome!
+		  </p>
           <p class="Chapter_CORE-BODY">Welcome to the ManorInnDND homepage. The purpose of this site is to track the exploits of your adventuring party
 				and provide information about the world they explore. Right now I am thinking we will track the following information
 				here:
           <ul class="Chapter_CORE-BULLETED">
-			<li>Character Development - Personality, (Mis?)Deeds, Physical Description, Picture</li>
+			<li>Character Development - Personality, (Mis?)Deeds, Physical Description, Pictures</li>
 					<li>Session Notes - A synopsis of each session</li>
 					<li>Adventure Hooks - Notes on potential adventure leads</li>
 					<li>Handouts - Maps and other handout-type media</li>
 					<li>Date/Time/Place of next Session</li>
 		  </ul>
 				</p>
+		</section>
+		<section id="nextSession">
 			<p class="Chapter_CHAPTER-SECTION">Next Session Will Be...</p>
-			<p class="Chapter_CORE-BODY"> <b>At</b> 4 PM, Carrie and Brandons</p>
-			<p class="Chapter_CORE-BODY"> <b>On</b> Sunday, December 26</p>
+			<p class="Chapter_CORE-BODY"> <b>At</b><time id="time"> 4 PM</time>, Carrie and Brandons</p>
+			<p class="Chapter_CORE-BODY"> <b>On</b><time id="date"> Sunday, December 26</time></p>
 			<p class="Chapter_CORE-BODY"> <b>Time Remaining:</p>
 			<p id="countdown" class="Chapter_CORE-BODY"></p>
-			
-			<p class="Chapter_CHAPTER-SECTION">The Adventuring Party</p>
-			<p class="Chapter_CORE-BODY">
-			A brief description of each member of the party follows. There is also a roster of <a href="thefallen.html">the fallen</a>.</p>
-			<p class="Chapter_SECTION-HEADER-1">Everin Godrick (Charlie)</p>
-			<hr>
-			<p class="Chapter_CORE-BODY">
-				Ebberon is a roguish half-elf, little is known of him so far.</p>	
-			<p class="Chapter_SECTION-HEADER-1">Galifraen Amarondel (Luke)</p>
-			<hr>
-			<p class="Chapter_CORE-BODY">
-				Galifraen is an old high-elf accustomed to a nobles prestige.</p>
-			<p class="Chapter_SECTION-HEADER-1">Onnie Ottilie (Sarah)</p>
-			<hr>
-			<p class="Chapter_CORE-BODY">
-				Onnie is a young Aasimar, she enjoys games of fortune and helping others.</p>	
-			<p class="Chapter_SECTION-HEADER-1">Zodius Shadowtree (Brandon)</p>
-			<hr>
-			<p class="Chapter_CORE-BODY">
-				Zodius is an peculiar gnome, versed in the magical arts. He is often observed &quot;pondering&quot; his orb.</p>	
-			<p class="Chapter_SECTION-HEADER-1">Moa (Carrie)</p>
-			<hr>
-			<p class="Chapter_CORE-BODY">
-				Moa is a elven druid, she carries a bow.</p>
-			
-			
+		</section>
+		<section id="map">
 			<p class="Chapter_CHAPTER-SECTION">Map of Local Area:</p>
 			<img src="Introduction2-web-resources/LocalAreaMap24Mile.png" alt="Local Area Map" width="500" height="425">
-			<p class="Chapter_CHAPTER-SECTION">Links to Session Recaps:</p>
-			<p class="Chapter_CORE-BODY">
-				You can find links to descriptions of the events which occurred in each session below.
-			</p>
-			<p class="Chapter_SECTION-HEADER-1">
-				The Spoooooky Mansion (Levels 1 - ?)
-			</p>
-			<hr>
-			<p class="Chapter_CORE-BODY">
-				Below are sessions which took place during our first adventure, "The Spoooooky Mansion".
-			</p>
-			<ul class="Chapter_CORE-BULLETED">
-				<li><a href="session1.html">Session 1</a> - Meeting each other, traveling to mansion, waiting for the host</li>
-				<li><a href="session2.html">Session 2</a> - Surviving the dinner ambush, exploring some of the second floor, killing Iason</li>
-				<li><a href="session3.html">Session 3</a> - Exploring the rest of the mansion and greenhouse, killing evil doll and plant monster, talking with the host</li>
-			</ul>
+		</section>
 		
-		</div>
 	</body>
 </html>
 
 <script>
 	// Set the date we're counting down to
-	var countDownDate = new Date("01/9/22 16:00:00").getTime();
+	var countdownDateString = "01/16/22 16:00:00"
+	var countDownDate = new Date(countdownDateString).getTime();
 	
 	// Update the count down every 1 second
 	var x = setInterval(function() {
@@ -93,6 +73,14 @@
 	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+		
+	  // Diplay the countdown time in the element with id="time"
+	  var time = new Date(countdownDateString).toLocaleTimeString("en-US",{hour: "numeric"} );
+	  document.getElementById("time").innerHTML = " " + time
+	  
+	  // Diplay the countdown date in the element with id="date"
+	  var date = new Date(countdownDateString).toLocaleDateString("en-US",{weekday: "long", month: "long", day: "numeric"} );
+	  document.getElementById("date").innerHTML = " " + date
 	
 	  // Display the result in the element with id="countdown"
 	  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "

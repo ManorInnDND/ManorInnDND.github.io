@@ -1,22 +1,22 @@
-body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote, nav {
 	margin:5px;
 	padding:0;
 	border-width:0;
-	font-size:16px;
+	font-size:small;
 }
 hr {
-	background:#48341b;
+	background:#48221b;
 	height:2px;
 	width: 250px;
 	margin-left: 0%;
+	border-style:	none;
 }
 body {
 	-epub-hyphens:auto;
 	hyphens: auto;
+	background:	#876b49;
 }
-div.Two-Column-Frame {
-	border-style:solid;
-}
+
 p.CORE-STAT {
 	color:#000000;
 	font-family:"Scaly Sans Remake", sans-serif;
