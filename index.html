@@ -1,59 +1,116 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>The Manor Inn Sessions - Home</title>
-		<link href="Introduction2-web-resources/css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
-		<link href="Introduction2-web-resources/css/customStyles.css" rel="stylesheet" type="text/css" />
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<title>
+			The Manor Inn Sessions - Home
+		</title>
+		<link href="Introduction2-web-resources/css/idGeneratedStyles.css" rel="stylesheet" type="text/css">
+		<link href="Introduction2-web-resources/css/customStyles.css" rel="stylesheet" type="text/css">
 	</head>
 	<body id="Introduction2" lang="en-US">
 		<section id="header">
-		<header>
-			<p class="Chapter_CHAPTER-TITLE">Manor Inn D&D</p>
-          <img src="Introduction2-web-resources/images/ponderingorb.jpg" alt="" width="157" height="94" align="top"/>
-		</header>
-		<nav>
-			<ul>
-				<li id="current"><a href="index.html">| HOME |</a></li>
-				<li><a href="sessions.html">| SESSIONS |</a></li>
-				<li><a href="partybios.html">| PARTY BIOS |</a></li>
-				<li><a href="adventureleads.html">| ADVENTURE LEADS |</a></li>
-				<li><a href="thefallen.html">| THE FALLEN |</a></li>
-			</ul>
-		  </nav>
-		</section>  
-		  <section id="intro">
-		  <p class="Chapter_CHAPTER-SECTION">
-			Welcome!
-		  </p>
-          <p class="Chapter_CORE-BODY">Welcome to the ManorInnDND homepage. The purpose of this site is to track the exploits of your adventuring party
+			<header>
+				<h1>
+					Manor Inn D&amp;D
+				</h1>
+				<img align="top" alt height="94" src="Introduction2-web-resources/images/ponderingorb.jpg" width="157">
+			</header>
+			<nav>
+				<ul>
+					<li id="current">
+						<a href="index.html">
+							| HOME |
+						</a>
+					</li>
+					<li>
+						<a href="sessions.html">
+							| SESSIONS |
+						</a>
+					</li>
+					<li>
+						<a href="partybios.html">
+							| PARTY BIOS |
+						</a>
+					</li>
+					<li>
+						<a href="adventureleads.html">
+							| ADVENTURE LEADS |
+						</a>
+					</li>
+					<li>
+						<a href="thefallen.html">
+							| THE FALLEN |
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+		<section id="intro">
+			<h2>
+				Welcome!
+			</h2>
+			<p class="Chapter_CORE-BODY">
+				Welcome to the ManorInnDND homepage. The purpose of this site is to track the exploits of your adventuring party
 				and provide information about the world they explore. Right now I am thinking we will track the following information
 				here:
-          <ul class="Chapter_CORE-BULLETED">
-			<li>Character Development - Personality, (Mis?)Deeds, Physical Description, Pictures</li>
-					<li>Session Notes - A synopsis of each session</li>
-					<li>Adventure Hooks - Notes on potential adventure leads</li>
-					<li>Handouts - Maps and other handout-type media</li>
-					<li>Date/Time/Place of next Session</li>
-		  </ul>
-				</p>
+				<ul class="Chapter_CORE-BULLETED">
+					<li>
+						Character Development - Personality, (Mis?)Deeds, Physical Description, Pictures
+					</li>
+					<li>
+						Session Notes - A synopsis of each session
+					</li>
+					<li>
+						Adventure Hooks - Notes on potential adventure leads
+					</li>
+					<li>
+						Handouts - Maps and other handout-type media
+					</li>
+					<li>
+						Date/Time/Place of next Session
+					</li>
+				</ul>
+			</p>
 		</section>
 		<section id="nextSession">
-			<p class="Chapter_CHAPTER-SECTION">Next Session Will Be...</p>
-			<p class="Chapter_CORE-BODY"> <b>At</b><time id="time"> 4 PM</time>, Carrie and Brandons</p>
-			<p class="Chapter_CORE-BODY"> <b>On</b><time id="date"> Sunday, December 26</time></p>
-			<p class="Chapter_CORE-BODY"> <b>Time Remaining:</p>
-			<p id="countdown" class="Chapter_CORE-BODY"></p>
+			<h2>
+				Next Session Will Be...
+			</h2>
+			<p class="Chapter_CORE-BODY">
+				<b>
+					At
+				</b>
+				<time id="time">
+					4 PM
+				</time>
+				, Carrie and Brandons
+			</p>
+			<p class="Chapter_CORE-BODY">
+				<b>
+					On
+				</b>
+				<time id="date">
+					Sunday, December 26
+				</time>
+			</p>
+			<p class="Chapter_CORE-BODY">
+				<b>
+					Time Remaining:
+				</b>
+			</p>
+			<p class="Chapter_CORE-BODY" id="countdown">
+			</p>
 		</section>
 		<section id="map">
-			<p class="Chapter_CHAPTER-SECTION">Map of Local Area:</p>
-			<img src="Introduction2-web-resources/LocalAreaMap24Mile.png" alt="Local Area Map" width="500" height="425">
+			<h2>
+				Map of Local Area:
+			</h2>
+			<img alt="Local Area Map" height="425" src="Introduction2-web-resources/LocalAreaMap24Mile.png" width="500">
 		</section>
-		
 	</body>
 </html>
-
 <script>
 	// Set the date we're counting down to
 	var countdownDateString = "01/16/22 16:00:00"
@@ -92,4 +149,4 @@
 		document.getElementById("countdown").innerHTML = "Not Set/Expired";
 	  }
 	}, 1000);
-	</script>
+</script>

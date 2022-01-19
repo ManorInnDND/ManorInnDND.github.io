@@ -38,7 +38,7 @@ p.CORE-STAT {
 	text-transform:none;
 	widows:1;
 }
-p.Chapter_CHAPTER-SECTION {
+h2 {
 	color:#48341b;
 	font-family:Bookmania, serif;
 	font-size:200%;
@@ -59,7 +59,7 @@ p.Chapter_CHAPTER-SECTION {
 	text-transform:none;
 	widows:1;
 }
-p.Chapter_CHAPTER-TITLE {
+h1 {
 	color:#48341b;
 	font-family:Bookmania, serif;
 	font-size:260%;
@@ -166,7 +166,7 @@ p.Chapter_CORE-METADATA {
 	text-transform:none;
 	widows:1;
 }
-p.Chapter_SECTION-HEADER-1 {
+h3 {
 	color:#48341b;
 	font-family:"Bookmania Light", serif;
 	font-size:160%;
@@ -187,7 +187,7 @@ p.Chapter_SECTION-HEADER-1 {
 	text-transform:none;
 	widows:1;
 }
-p.Chapter_SECTION-HEADER-2 {
+h4 {
 	color:#48341b;
 	font-family:"Bookmania Light", serif;
 	font-size:120%;
