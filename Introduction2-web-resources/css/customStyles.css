@@ -25,6 +25,18 @@ nav ul li a {
 	color:		#691d1d;
 }
 
+a.downloadLink:link {
+	font-weight: bold;
+	text-decoration: none;
+	color:		#691d1d;
+}
+
+a.downloadLink:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color:		#311d69;
+}
+
 img {
 	border-radius:	5px;
 }
