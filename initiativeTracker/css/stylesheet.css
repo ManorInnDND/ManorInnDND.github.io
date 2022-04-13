@@ -27,6 +27,13 @@ td button{
     padding: 6px;
 }
 
+div.fixedButtonContainer{
+    position: fixed;
+    top: 25%;
+    left: 5%;
+    text-align: left;
+}
+
 tr.current{
     background-color: darkseagreen;
 }

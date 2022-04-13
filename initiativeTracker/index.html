@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
         <title>
             Initiative Tracker
         </title>
@@ -17,16 +18,19 @@
                 </h1>
             </header>
         </div>
+        <div class="fixedButtonContainer">
+            <button id="sortItemsBtn">Sort Items</button> <br>
+            <button id="cycleBtn">Cycle</button>
+        </div>
         <div>
             <label for="name">Name:</label>
-            <input type="text" id="nameInput">
+            <input type="text" id="nameInput"> <br>
             <label for="initValue">Initiative Value:</label>
-            <input type="text" id="initInput">
+            <input type="text" id="initInput"> <br>
             <label for="initBonus">Initiative Bonus:</label>
-            <input type="text" id="initBonus" value="0">
+            <input type="text" id="initBonus" value="0"> <br>
             <button id="addBtn">add</button>
-            <button id="sortItemsBtn">Sort Items</button>
-            <button id="cycleBtn">Cycle</button>
+          
             <button id="resetCycleBtn">Reset Cycle</button>
             <button id="rerollAllBtn">Reroll All</button>
         </div>
