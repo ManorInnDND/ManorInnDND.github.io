@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Initiative Tracker
+        </title>
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="module" src="js/main.mjs"></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1>
+                    Initiative Tracker
+                </h1>
+            </header>
+        </div>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="nameInput">
+            <label for="initValue">Initiative Value:</label>
+            <input type="text" id="initInput">
+            <label for="initBonus">Initiative Bonus:</label>
+            <input type="text" id="initBonus" value="0">
+            <button id="addBtn">add</button>
+            <button id="sortItemsBtn">Sort Items</button>
+            <button id="cycleBtn">Cycle</button>
+            <button id="resetCycleBtn">Reset Cycle</button>
+            <button id="rerollAllBtn">Reroll All</button>
+        </div>
+        <br>
+        <div >
+            <table id="initTable">
+                
+            </table> 
+        </div>
+    </body>
+</html>

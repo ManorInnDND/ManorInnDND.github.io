@@ -1,0 +1,32 @@
+body {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+table {
+    font-size: larger;
+    text-align: center;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+}
+
+
+/* the '>' selects top level children only */
+table >:nth-child(even){
+    background-color: brown;
+}
+
+table >:nth-child(odd){
+    background-color: bisque;
+}
+
+td button{
+    padding: 6px;
+}
+
+tr.current{
+    background-color: darkseagreen;
+}
