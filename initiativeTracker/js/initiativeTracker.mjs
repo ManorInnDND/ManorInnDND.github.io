@@ -92,6 +92,7 @@ class InitiativeTracker{
             nextIndex = currentIndex + 1
         }
         rows[nextIndex].setAttribute("class", "current");
+        rows[nextIndex].scrollIntoView()
         rows[currentIndex].removeAttribute("class");
     }
 
