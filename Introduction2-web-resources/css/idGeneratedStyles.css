@@ -4,6 +4,9 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote, nav {
 	border-width:0;
 	font-size:small;
 }
+h1, h2, h3 {
+	clear: both;
+}
 hr {
 	background:#48221b;
 	height:2px;
@@ -58,6 +61,7 @@ h2 {
 	text-indent:0;
 	text-transform:none;
 	widows:1;
+
 }
 h1 {
 	color:#48341b;
@@ -82,7 +86,7 @@ h1 {
 }
 p.Chapter_CORE-BODY {
 	color:#000000;
-	font-family:"Bookinsanity Remake", serif;
+	font-family:"Bookmania Light", serif;
 	font-size:100%;
 	font-style:normal;
 	font-variant:normal;
@@ -103,7 +107,7 @@ p.Chapter_CORE-BODY {
 }
 p.Chapter_CORE-BODY-INDENT {
 	color:#000000;
-	font-family:"Bookinsanity Remake", serif;
+	font-family:"Bookmania Light", serif;
 	font-size:100%;
 	font-style:normal;
 	font-variant:normal;

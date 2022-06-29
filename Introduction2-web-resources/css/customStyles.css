@@ -66,8 +66,17 @@ section section {
 	display:	table-row;
 }
 
+span.figure  {
+	display: flex;
+	float: left;
+	margin: 10px 5px 5px 0px;
+	flex-flow: column;
+	max-width: 200px;
+	align-items: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+}
 
-
-
-
-
+span.figure img {
+	max-width: 200px;
+}

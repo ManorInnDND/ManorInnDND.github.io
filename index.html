@@ -90,7 +90,7 @@
 				<time id="time">
 					4 PM
 				</time>
-				, Carrie and Brandons
+				, Brandons
 			</p>
 			<p class="Chapter_CORE-BODY">
 				<b>
@@ -118,7 +118,7 @@
 </html>
 <script>
 	// Set the date we're counting down to
-	var countdownDateString = "03/13/22 16:00:00"
+	var countdownDateString = "07/03/22 16:30:00"
 	var countDownDate = new Date(countdownDateString).getTime();
 	
 	// Update the count down every 1 second
@@ -137,7 +137,7 @@
 	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 		
 	  // Diplay the countdown time in the element with id="time"
-	  var time = new Date(countdownDateString).toLocaleTimeString("en-US",{hour: "numeric"} );
+	  var time = new Date(countdownDateString).toLocaleTimeString("en-US",{hour: "numeric", minute:"numeric"} );
 	  document.getElementById("time").innerHTML = " " + time
 	  
 	  // Diplay the countdown date in the element with id="date"
