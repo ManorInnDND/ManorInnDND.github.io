@@ -313,8 +313,8 @@ p.ParaOverride-1 {
 p.ParaOverride-2 {
 	text-indent:11px;
 }
-span.CharOverride-1 {
-	font-style:normal;
+.metadata_start {
+	font-style:italic;
 	font-weight:bold;
 }
 p.quote {
