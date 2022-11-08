@@ -80,3 +80,10 @@ span.figure  {
 span.figure img {
 	max-width: 200px;
 }
+
+blockquote {
+	position: relative;
+	margin: 40px;
+	font-style: italic;
+	font-family: 'Times New Roman', Times, serif;
+}
