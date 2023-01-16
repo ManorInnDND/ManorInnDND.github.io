@@ -1,0 +1,56 @@
+<header>
+    <h1>
+        Manor Inn D&amp;D
+    </h1>
+    <img align="top" alt height="94" src="Introduction2-web-resources/images/ponderingorb.jpg" width="157">
+</header>
+<nav>
+    <ul>
+        <li>
+            <a href="index.html">
+                | HOME |
+            </a>
+        </li>
+        <li>
+            <a href="sessions.html">
+                | SESSIONS |
+            </a>
+        </li>
+        <li>
+            <a href="partybios.html">
+                | PARTY BIOS |
+            </a>
+        </li>
+        <li>
+            <a href="importantnpcs.html">
+                | IMPORTANT NPCS |
+            </a>
+        </li>
+        <li>
+            <a href="adventureleads.html">
+                | ADVENTURE LEADS |
+            </a>
+        </li>
+        <li>
+            <a href="thefallen.html">
+                | THE FALLEN |
+            </a>
+        </li>
+        <li>
+            <a href="handouts.html">
+                | HANDOUTS |
+            </a>
+        </li>
+        <li>
+            <a href="links.html">| LINKS |</a>
+        </li>
+    </ul>
+</nav>
+<script>
+    // once loaded into page this sets the nav elements class=current for the page
+    // making it bold.
+	$(function(){
+	let filename = window.location.pathname.replace("/","");				
+	$("li:has(a[href='" + filename + "'])").addClass("current");
+	})
+</script>

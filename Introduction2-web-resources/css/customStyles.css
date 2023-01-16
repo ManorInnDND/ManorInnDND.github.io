@@ -15,7 +15,7 @@ nav ul li {
 	white-space:	nowrap;
 }
 
-nav ul li#current {
+nav ul li.current {
 	background:	#b88b54;
 }
 
