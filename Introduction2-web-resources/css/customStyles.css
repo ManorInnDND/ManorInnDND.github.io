@@ -89,6 +89,6 @@ blockquote {
 }
 
 iframe.spreadsheet {
-	height: 200px;
-	width: 350px;
+	height: 100%;
+	width: 100%;
 }
