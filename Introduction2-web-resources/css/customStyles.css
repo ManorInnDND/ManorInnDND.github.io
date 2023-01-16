@@ -87,3 +87,8 @@ blockquote {
 	font-style: italic;
 	font-family: 'Times New Roman', Times, serif;
 }
+
+iframe.spreadsheet {
+	height: 200px;
+	width: 350px;
+}
