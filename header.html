@@ -2,50 +2,50 @@
     <h1>
         Manor Inn D&amp;D
     </h1>
-    <img align="top" alt height="94" src="Introduction2-web-resources/images/ponderingorb.jpg" width="157">
+    <img align="top" alt height="94" src="/Introduction2-web-resources/images/ponderingorb.jpg" width="157">
 </header>
 <nav>
     <ul>
         <li>
-            <a href="index.html">
+            <a href="/index.html">
                 | HOME |
             </a>
         </li>
         <li>
-            <a href="sessions.html">
+            <a href="/sessions.html">
                 | SESSIONS |
             </a>
         </li>
         <li>
-            <a href="partybios.html">
+            <a href="/partybios.html">
                 | PARTY BIOS |
             </a>
         </li>
         <li>
-            <a href="importantnpcs.html">
+            <a href="/importantnpcs.html">
                 | IMPORTANT NPCS |
             </a>
         </li>
         <li>
-            <a href="adventureleads.html">
+            <a href="/adventureleads.html">
                 | ADVENTURE LEADS |
             </a>
         </li>
         <li>
-            <a href="thefallen.html">
+            <a href="/thefallen.html">
                 | THE FALLEN |
             </a>
         </li>
         <li>
-            <a href="handouts.html">
+            <a href="/handouts.html">
                 | HANDOUTS |
             </a>
         </li>
         <li>
-            <a href="xptracker.html">| XP TRACKER |</a>
+            <a href="/xptracker.html">| XP TRACKER |</a>
         </li>
         <li>
-            <a href="links.html">| LINKS |</a>
+            <a href="/links.html">| LINKS |</a>
         </li>
     </ul>
 </nav>
@@ -53,7 +53,7 @@
     // once loaded into page this sets the nav elements class=current for the page
     // making it bold.
 	$(function(){
-	let filename = window.location.pathname.replace("/","");				
+	let filename = window.location.pathname;		
 	$("li:has(a[href='" + filename + "'])").addClass("current");
 	})
 </script>

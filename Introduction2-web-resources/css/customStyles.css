@@ -92,3 +92,7 @@ iframe.spreadsheet {
 	height: 100%;
 	width: 100%;
 }
+
+span.pc, span.npc, span.location {
+	font-weight: bold;
+}
