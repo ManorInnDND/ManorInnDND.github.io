@@ -1,0 +1,335 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:5px;
+	padding:0;
+	border-width:0;
+}
+hr {
+	background:#231b48;
+	height:2px;
+	width: 250px;
+	margin-left: 0%;
+}
+body {
+	-epub-hyphens:auto;
+	hyphens: auto;
+}
+div.Two-Column-Frame {
+	border-style:solid;
+}
+p.CORE-STAT {
+	color:#000000;
+	font-family:"Scaly Sans Remake", sans-serif;
+	font-size:10px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Chapter_CHAPTER-SECTION {
+	color:#231b48;
+	font-family:Bookmania, serif;
+	font-size:20px;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:5px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Chapter_CHAPTER-TITLE {
+	color:#231b48;
+	font-family:Bookmania, serif;
+	font-size:26px;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:18px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Chapter_CORE-BODY {
+	color:#000000;
+	font-family:"Bookinsanity Remake", serif;
+	font-size:10px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:5px;
+	margin-left:2;
+	margin-right:2;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:avoid;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Chapter_CORE-BODY-INDENT {
+	color:#000000;
+	font-family:"Bookinsanity Remake", serif;
+	font-size:10px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:5px;
+	margin-left:2;
+	margin-right:2;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:avoid;
+	text-align:left;
+	text-decoration:none;
+	text-indent:11px;
+	text-transform:none;
+	widows:1;
+}
+ul.Chapter_CORE-BULLETED {
+	color:#000000;
+	font-family:"Bookinsanity Remake", serif;
+	font-size:10px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	list-style-position:outside;
+	list-style-type:disc;
+	margin-bottom:5px;
+	margin-left:9px;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:-9px;
+	text-transform:none;
+	widows:1;
+}
+p.Chapter_CORE-METADATA {
+	color:#000000;
+	font-family:Bookmania, serif;
+	font-size:10px;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:5px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Chapter_SECTION-HEADER-1 {
+	color:#231b48;
+	font-family:"Bookmania Light", serif;
+	font-size:16px;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight:300;
+	line-height:1.2;
+	margin-bottom:9px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:9px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Chapter_SECTION-HEADER-2 {
+	color:#231b48;
+	font-family:"Bookmania Light", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight:300;
+	line-height:1.2;
+	margin-bottom:5px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:9px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.SHADED-TEXT {
+	background-color:#cbccce;
+	color:#000000;
+	font-family:"Scaly Sans Remake", sans-serif;
+	font-size:10px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.4;
+	margin-bottom:18px;
+	margin-left:5px;
+	margin-right:0;
+	margin-top:9px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Sidebar_SIDEBAR-BODY {
+	background-color:#e6e6e8;
+	color:#000000;
+	font-family:"Scaly Sans Remake", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:9px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Sidebar_SIDEBAR-BULLETED {
+	background-color:#e6e6e8;
+	color:#000000;
+	font-family:"Scaly Sans Remake", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	list-style-position:inside;
+	list-style-type:disc;
+	margin-bottom:0;
+	margin-left:5px;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Sidebar_SIDEBAR-HEADING {
+	background-color:#e6e6e8;
+	color:#000000;
+	font-family:"Scaly Sans Remake", sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:0;
+	margin-top:14px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+span._idGenBNMarker-1 {
+	display:inline-block;
+	text-indent:0;
+	width:9px;
+}
+p.ParaOverride-1 {
+	margin-bottom:5px;
+}
+p.ParaOverride-2 {
+	text-indent:11px;
+}
+span.CharOverride-1 {
+	font-style:normal;
+	font-weight:bold;
+}
+p.quote {
+	color:#000000;
+	font-family:Bookmania, serif;
+	font-size:10px;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:5px;
+	margin-left:11px;
+	margin-right:11px;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-indent: 11px;
+	text-decoration:none;
+	text-transform:none;
+	widows:1;
+}

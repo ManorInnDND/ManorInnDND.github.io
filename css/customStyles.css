@@ -1,0 +1,108 @@
+nav {
+	list-target-type:	none;
+	margin:	0px;
+}
+
+nav ul {
+	line-height: 2em;
+	padding-inline-start: 0px;
+}
+
+nav ul li {
+	display:	inline;
+	padding:	4px 4px;
+	border-radius:	5px;
+	white-space:	nowrap;
+}
+
+nav ul li.current {
+	background:	#b88b54;
+}
+
+nav ul li a {
+	font-weight: bold;
+	text-decoration: none;
+	color:		#691d1d;
+}
+
+a.downloadLink:link {
+	font-weight: bold;
+	text-decoration: none;
+	color:		#691d1d;
+}
+
+a.downloadLink:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color:		#311d69;
+}
+
+img {
+	border-radius:	5px;
+}
+
+section {
+	margin:	5px 0px;
+	padding:	5px;
+	background:	#ebbe88;
+	border-radius:	5px;
+}
+
+section section {
+	margin:	0px;
+}
+
+
+.tableContainer	{
+	display:	table;
+	border-spacing: 5px;
+}
+
+.tableCell {
+	display:	table-cell;
+}
+
+.tableRow {
+	display:	table-row;
+}
+
+span.figure  {
+	display: flex;
+	float: left;
+	margin: 10px 5px 5px 0px;
+	flex-flow: column;
+	max-width: 200px;
+	align-items: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+}
+
+span.figure img {
+	max-width: 200px;
+}
+
+blockquote {
+	position: relative;
+	margin: 40px;
+	font-style: italic;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+iframe.spreadsheet {
+	height: 250px;
+	width: 100%;
+}
+
+span.pc, span.npc, span.location {
+	font-weight: bold;
+}
+
+span.dm {
+	float: right;
+	font-family:"Bookmania Light", serif;
+	font-size:80%;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight:300;
+	line-height:1.2;
+}
