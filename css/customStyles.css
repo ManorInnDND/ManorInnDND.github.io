@@ -93,7 +93,7 @@ iframe.spreadsheet {
 	width: 100%;
 }
 
-span.pc, span.npc, span.location {
+span.pc, span.npc, span.location, span.items {
 	font-weight: bold;
 }
 
