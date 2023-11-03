@@ -97,12 +97,6 @@ span.pc, span.npc, span.location, span.items {
 	font-weight: bold;
 }
 
-span.dm {
-	float: right;
-	font-family:"Bookmania Light", serif;
-	font-size:80%;
-	font-style:normal;
-	font-variant:small-caps;
-	font-weight:300;
-	line-height:1.2;
+.completed {
+	text-decoration: line-through;
 }
