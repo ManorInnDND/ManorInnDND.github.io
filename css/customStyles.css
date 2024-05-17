@@ -100,3 +100,9 @@ span.pc, span.npc, span.location, span.items {
 .completed {
 	text-decoration: line-through;
 }
+section.map{
+	display: grid;
+}
+img.map {
+	max-width: 100%;
+}
