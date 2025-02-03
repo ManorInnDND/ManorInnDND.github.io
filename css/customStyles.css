@@ -66,6 +66,10 @@ section section {
 	display:	table-row;
 }
 
+.item {
+	font-style: italic;
+}
+
 span.figure  {
 	display: flex;
 	float: left;
