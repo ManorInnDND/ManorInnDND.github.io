@@ -110,3 +110,6 @@ section.map{
 img.map {
 	max-width: 100%;
 }
+button.choice{
+	margin: 2px;
+}
