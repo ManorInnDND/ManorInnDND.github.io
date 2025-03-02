@@ -52,17 +52,28 @@ section section {
 	margin:	0px;
 }
 
+table, td, th {
+	border: 2px solid;
+	border-collapse: collapse;
+	text-align: center;
+}
 
 .tableContainer	{
 	display:	table;
 	border-spacing: 5px;
+	border: 2px solid;
+	border-collapse: collapse;
 }
 
-.tableCell {
+.tableCell td{
+	border: 2px solid;
 	display:	table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
 
-.tableRow {
+.tableRow tr{
+	border: 2px solid;
 	display:	table-row;
 }
 
@@ -109,4 +120,7 @@ section.map{
 }
 img.map {
 	max-width: 100%;
+}
+button.choice{
+	margin: 2px;
 }
