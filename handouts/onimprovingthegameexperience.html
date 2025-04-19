@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<title>
+			On Improving the Game Experience
+		</title>
+		<link href="../css/idGeneratedStyles.css" rel="stylesheet" type="text/css">
+		<link href="../css/customStyles.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src="my_jquery_functions.js"></script>
+	</head>
+	<body id="Introduction2" lang="en-US">
+		<section id="header">
+			<h2><a href="../handouts.html">Back</a></h2>
+		</section>
+		<section id="main">
+			<span class="figure">
+				<img src="../media/images/evilgm.png" height="200px">
+			</span>
+			<h1>
+				On Improving the Game Experience
+			</h1>
+			<p class="Chapter_CORE-BODY">
+				Below are the strategies I will be implementing in our game. I 
+				believe they will improve your experience of the game. These strategies 
+				are taken from The Angry GM blog, specifically his <a href="https://theangrygm.com/true-game-mastery/">
+					True Game Mastery</a> series of articles. 
+			</p>
+			<h3>TL;DR</h3>
+			<p class="Core">
+				Some fundamentals of how you and I interact are being redefined. The biggest is that 
+				I am now 'owning' all of the events that happen in the game. You tell me what your 
+				character intends to do and I describe what happens when they attempt to do it. This 
+				is different than our looser 'tell me what you do and I'll jump in if it goes to far'. The 
+				structure of narration is changing too, I will only be stating facts - nothing about what 
+				your character feels or thinks. Related to this is the new handling of skills like 
+				Insight and Perception. I'll tell you if your character knows something base on their 
+				abilities instead of you asking if you can try to remember or intuit someting. Along with this 
+				the habit of using game mechanics when describing actions is also being reduced as much as possible.
+				No more 'Can I perception for secret doors.' I'm not expecting you to memorize this stuff or 
+				even read it - I'll be explaining and nudging as we play - but it's here if you want to know what 
+				I am trying to do, and the full extent of the logic is on the Angry GM blog.
+			</p>
+			<h3>Ownership</h3>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Concept.</span> Players care more about games that 
+				have real stakes, at least in the long run. To make the stakes in real in D&D the DM describes the 
+				world and adjudicates the actions the players declare. 
+			</p>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Implementation.</span> It's on me to describe everything that happens. When you describe what 
+				your character does I will be interpreting what you say as what your character <i>intends to do</i>. I
+				will confirm with you that what I think you mean is what you mean and then describe the outcome 
+				of your intention to act. 
+			</p>
+			<h3>How to Act</h3>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Concept.</span> For a player to influence the game world they need to 
+				declare an intention that is actionable. Actionable intentions are many, and there are many non-actionable 
+				declarations too. The game world will only respond to actionable intentions. It is the 
+				DMs job to describe everything the character perceives, and only what they perceive. It is 
+				the players job to decide what do with their character's perception. Also, allowing players to 
+				use game mechanic terms in their actions contrains imagination and limits immersion. 
+			</p>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Implementation.</span> When describing what your character intends to 
+				do it's got to be actionable. Actionable stuff is something that acts on something else in the game 
+				world. 'I drawn my broadsword as I charge the baron.' is an action.
+				'I think the baron is ugly.' is not an action, it is happening inside your character's head. 
+				Also the mechanics of the game should not be part of your action declarations, instead of 'I enter 
+				the room and perception for interesting stuff.' Try 'I enter the room and approach the chest, examining 
+				the floor and chest for traps on the way.'
+			</p>
+			<h3>Skills and Actions</h3>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Thinking & Recall.</span> Things your character would know 
+				I will tell you when setting a scene - you will not need to ask if you remember something. For 
+				example, suppose a monster requires a religion check to know more about. Instead of asking for a 
+				religion roll I will ask for a die roll in secret or maybe just use the passive number. If you 
+				pass you get the additional info when encountering the thing the roll was related to:
+				<p class="quote" style="text-indent:0px">
+					You see an filthy humanoid in ragged ceremonial robes with a distended belly, its 
+					skeletal head gapes hungrily beneath a square-shaped cap. Because
+					of his time in the Nag'ru priesthood, Mad Dog recogonizes it as a 
+					mumm-ratha, an undead guardian of religious texts - texts that 
+					are often concealed within the body of the guardian.
+				</p>
+			</p>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Spotting & Searching.</span> Many of these kinds of 
+				actions happen automatically or without action, just like recall and thinking stuff.
+				You either make the perception check 
+				(in secret) or not. If you make it you get a clue and it is up to you to act on it. Suppose 
+				for example an arrow trap just ahead. The trap has a DC 15 to perceive. Anyone in 
+				the party who has a Passive Perception of 15+ would hear this description:
+				<p class="quote" style="text-indent:0px">
+					The passage turns abruptly to the right, just where it turns Mad Dog notices 
+					the wall on the left has been badly scratched.
+				</p>
+				And a 20+ would hear this:
+				<p class="quote" style="text-indent:0px">
+					The passage turns abruptly to the right, just where it turns Mad Dog notices 
+					the wall on the left has been badly scratched, and several of the floor tiles 
+					are slightly raised.
+				</p>
+				And a 14- would hear this:
+				<p class="quote" style="text-indent:0px">
+					The passage turns abruptly to the right. 
+				</p>
+			</p>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Sneaking & Skulking.</span> Following from needing 
+				to describe your intent without game mechanic terms, hiding requires more than 
+				'I try to hide in the room.' Where? How? 'I hide behind the tapestry on my tip toes.'
+			</p>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Speaking and Schmoozing.</span> However you describe 
+				your words, that's just what you sound like in your head. Your character's skills 
+				determine your eloquence or lack therof. What you say is important so far as it 
+				relates to relevance, emotions appealed to, and leverage used. But passion and poetry
+				will not change the DC. Still thats not to discourage them. 
+			</p>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Feeling and Sensing.</span> This one is tough, since I 
+				am not going to say 'Mad Dog thinks the baker is lying about the pie.' since that is telling you what 
+				your character thinks.  Instead I am going to provide clues similiar to spotting traps. 
+				'Mad Dog notices that the baker has glance at the storeroom door momentarilty while speaking about the pie.'
+			</p>
+			<h3>The Pricipal Character</h3>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Concept.</span> Good pacing makes for good feeling gameplay. When the DM hands off 
+				control of the pacing it should be clear who needs to take over and describe their intent.
+			</p>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Implementation.</span> No more asking 'What do you all do?'. Instead I will be asking whoever's 
+				character is the most appropriate in a given situation what their character intends to do. Sometimes initiative order will 
+				determine this, other times it's whoever is closest to the source of the thing being narrated.
+			</p>
+			<h3>The Action Queue</h3>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Concept.</span> Managing multiple character actions requires knowing each character's intention 
+				before resolving any action. Queuing up actions by shifting the prinicpal character until all players have declared 
+				intentions to act allows for more realistic resolution of those actions.
+			</p>
+			<p class="Chapter-CORE_BODY_INDENT">
+				<span class="metadata_start">Implementation.</span> I'll ask everyone what they do after setting a scene. Once everyone is accounted 
+				for I will begin resolving actions in order that they would take to resolve in game time-ish. Consider the following:
+				<p class="quote" style="text-indent:0px">
+					The room is 40' square with natural stone walls, no windows. A low circular wall against the far 
+					side of the room encircles a pool of water, above which is a shimmering man sized oval of many 
+					colors - a portal! It is set in the wall above the pool.
+				</p>
+				With an action queue approach:
+				<p class="quote" style="text-indent:0px">
+					Mad Dag is standing at the doorway, his comrades behind. What does Mad Dog do Sarah? "I rush to the pond to spit out the sunflower 
+					seeds I have been chewing." "Mad Dog enters the room, eyes on the pond" Erin, Fluffy of Rabbiton sees Mad Dog enter and is right behind him at the entry door, what does 
+					FLuffy do?" "I rush after Mad Dog and grab his cloak trying to stop him." "Fluffly enters the room right behind Mad Dog. Luke, Ranger Rick was behind Fluffy, what 
+					does he do?" "He approaches the door to the right to inspect it." No one else is playing so that's all the actions queued up, now what happens first... Fluffy is fast
+					and was right behind Mad Dog so "Fluffy grabs Mad Dog's clock and asks him to stop. What does Mad Dog do?" "I push away and keep heading for the fountain." "Erin, Fluffy 
+					feels Mad Dog attempting to free himself from their paws, what does Fluffy do?" "I let go and stand there watching." "Mad Dog pushes Fluffy away and rushes to the 
+					pond, the pond is clear and still. A mosaic of some kind on it's bottom. Mad Dog reaches the edge of the pool with seeds in mouth, what does he do Sarah?" This gives 
+					Sarah a chance to ask about the Mosaic. "I spit out all the seeds."
+				</p>
+				Not doing an action queue would have had Mad Dog already spitting into the pond and Fluffy would 
+				not have been able to attempt to dissuade him. Although this method is slower than what we have been doing, 
+				it does increase the realism and I think it will improve the pacing of our games. 
+			</p>
+			</section>
+		</div>
+	</body>
+</html>
