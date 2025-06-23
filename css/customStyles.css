@@ -128,3 +128,7 @@ img.map {
 button.choice{
 	margin: 2px;
 }
+
+.hidden{
+	display: none;
+}
