@@ -85,6 +85,11 @@ table, td, th {
 	font-style: italic;
 }
 
+.grid {
+	display: grid;
+	grid-template-columns: 210px 210px;
+}
+
 span.figure  {
 	display: flex;
 	float: left;
