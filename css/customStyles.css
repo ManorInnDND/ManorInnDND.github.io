@@ -87,7 +87,12 @@ table, td, th {
 
 .grid {
 	display: grid;
-	grid-template-columns: 210px 210px;
+	grid-template-columns: 100px 100px;
+}
+
+.centered {
+	align-content: center;
+	text-align: center;
 }
 
 span.figure  {
