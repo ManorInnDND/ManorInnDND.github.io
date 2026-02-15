@@ -95,6 +95,10 @@ table, td, th {
 	text-align: center;
 }
 
+.comment {
+	color: red;
+}
+
 span.figure  {
 	display: flex;
 	float: left;
